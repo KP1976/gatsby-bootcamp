@@ -3,12 +3,12 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Head from "../components/head"
 
-const IndexPage = () => {
+const AboutPage = () => {
   return (
     <Layout>
-      <Head title="Home" />
-      <h1>Hello.</h1>
-      <h2>I'm Chris, a full-stack developer living in beautiful Warsaw.</h2>
+      <Head title="About" />
+      <h1>About me</h1>
+      <p>I am Chris Pawłowski and i'm living in Warsaw</p>
       <p>
         Need a developer? <Link to="/contact">Contact me.</Link>
       </p>
@@ -16,4 +16,4 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default AboutPage
